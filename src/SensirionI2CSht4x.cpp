@@ -38,7 +38,9 @@
 
 #include "SensirionI2CSht4x.h"
 #include "Arduino.h"
+#ifndef SL_LIB_INCLUDE_SENSIRION_CORE
 #include "SensirionCore.h"
+#endif
 #include <Wire.h>
 
 #define SHT4X_I2C_ADDRESS 0x44
