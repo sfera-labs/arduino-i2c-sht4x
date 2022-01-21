@@ -41,7 +41,9 @@
 
 #include <Wire.h>
 
+#ifndef SL_LIB_INCLUDE_SENSIRION_CORE
 #include <SensirionCore.h>
+#endif
 
 class SensirionI2CSht4x {
 
